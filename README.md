@@ -9,6 +9,7 @@
 
 ### Create a GitHub Milestone
 
+- Prior to starting an iteration, your team must create a milestone for the iteration in GitHub. Here is a [GitHub Help article on milestones](https://help.github.com/articles/about-milestones/)
 - You need to do this only once per milestone in GitHub.
 - It is used to group issues and pull requests that contribute to a particular milestone.
 
@@ -42,7 +43,8 @@
 ## Step 4: Create a Pull Request (PR)
 
 - Once your task is completed, create a pull request in GitHub.
-- Make the title the exact same as the corresponding issue title and write a comment "Closes #3" in the description (assuming that the issue is issue #3).
+- Make the title the exact same as the corresponding issue title.
+- Add a comment "Closes #3" in the description (assuming that the issue is issue #3). This will link the PR with its corresponding issue and will automatically close the issue when the PR is closed. Here is a [GitHub Help article on using keywords in PR comments to close issues](https://help.github.com/articles/closing-issues-using-keywords/).
 - Set the _Reviewers_ to your team's QA Czars for the iteration, that is, the ones who will review PRs.
 - Set the _Labels_ and _Milestone_ to be the same as they were in the issue.
 - Once the PR is created, make note of its number and enter it into your individual assignment specs document.
