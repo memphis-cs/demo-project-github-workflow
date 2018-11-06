@@ -5,7 +5,7 @@
 ### Configure Project Repo
 
 - Disable _squash_ and _rebase_ merging. These forms of merging effectively change the commit history, and can cause confusion for the purposes of this course. Here is a [GitHub Help article on squash and rebase merging](https://help.github.com/articles/about-pull-request-merges/).
-- Add branch protection rule for `master` branch that requires pull request reviews before merging.
+- Add branch protection rule for `master` branch that requires pull request reviews before merging. Here is a [GitHub Help article on branch protection](https://help.github.com/articles/configuring-protected-branches/).
 
 ### Create a GitHub Milestone
 
