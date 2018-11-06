@@ -39,7 +39,7 @@
 - If changes are merged into the `master` branch while you are working on your topic branch, you will need merge them into your topic branch before you're done. From your topic branch, you can use this command to merge the remote master branch into your topic branch (although you may need to manually resolve merge conflicts after the command):
   - `git pull origin master`
 
-## Step 4: Create a Pull Request
+## Step 4: Create a Pull Request (PR)
 
 - Once your task is completed, create a pull request in GitHub.
 - Make the title the exact same as the corresponding issue title and write a comment "Closes #3" in the description (assuming that the issue is issue #3).
