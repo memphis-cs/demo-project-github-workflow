@@ -1,24 +1,15 @@
-# README
+# Demo: Workflow for Submitting Project Work
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Step 0: Create a Milestone
 
-Things you may want to cover:
+- 
 
-* Ruby version
+# Step 1: Create an Issue for Your Task
 
-* System dependencies
+# Step 2: Create a Topic Branch
 
-* Configuration
+# Step 3: Complete Your Task in the Topic Branch
 
-* Database creation
+# Step 4: Create a Pull Request
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Step 5: Review/Revise/Accept the Pull Request
