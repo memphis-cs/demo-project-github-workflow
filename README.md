@@ -40,6 +40,8 @@ At the start of each development iteration, there are a couple things you must d
 
 ## Performing Development Tasks for an Iteration
 
+Follow the following steps for each task you perform during an iteration.
+
 ### Step 1: Create an Issue for Your Task
 
 - When you start a task, create an issue for the task.
@@ -84,6 +86,8 @@ At the start of each development iteration, there are a couple things you must d
 - Once the QA Czar approves the change, they should also merge it into the `master` branch.
 
 ## Things to Do at the End of Each Iteration
+
+At the end of each iteration, there are a few things you must do (mostly concerned with reporting/documenting).
 
 - The team must update their individual assignment documents with the outcomes of their tasks. These changes should be committed/pushed to the `reporting` branch.
 - The team must also create/commit/push an instructions-to-instructors document in the `reporting` branch.
