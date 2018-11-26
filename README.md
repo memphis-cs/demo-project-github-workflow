@@ -4,11 +4,11 @@
 
 In this demonstration, I will explain the workflow to follow for submitting project work in this course. The workflow mostly follows the popular [GitHub Flow](https://guides.github.com/introduction/flow/) workflow.
 
-## Things to Do at the Very Beginning
+## Things to Do at the Very Beginning ([video](https://www.youtube.com/watch?v=Oi4c8UPu-9o&index=9&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=0s))
 
 Before you begin development iterations, there are couple things that must be set up.
 
-### Configure Project Repo ([video](https://www.youtube.com/watch?v=Oi4c8UPu-9o&index=9&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=0s))
+### Configure Project Repo ([video](https://www.youtube.com/watch?v=Oi4c8UPu-9o&index=9&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=8s))
 
 - Disable _squash_ and _rebase_ merging. These forms of merging effectively change the commit history, and can cause confusion for the purposes of this course. Here is a [GitHub Help article on squash and rebase merging](https://help.github.com/articles/about-pull-request-merges/).
 - Add branch protection rule for `master` branch that requires pull request reviews before merging. Here is a [GitHub Help article on branch protection](https://help.github.com/articles/configuring-protected-branches/).
@@ -26,7 +26,7 @@ Before you begin development iterations, there are couple things that must be se
 
 At the start of each development iteration, there are a couple things you must do.
 
-### Create a GitHub Milestone (video)
+### Create a GitHub Milestone ([video](https://www.youtube.com/watch?v=6z5-I4HiTHg&index=11&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=13s))
 
 - Prior to starting an iteration, your team must create a milestone for the iteration in GitHub. Here is a [GitHub Help article on milestones](https://help.github.com/articles/about-milestones/)
 - You need to do this only once per milestone in GitHub.
@@ -42,7 +42,7 @@ At the start of each development iteration, there are a couple things you must d
 
 Follow the following steps for each task you perform during an iteration.
 
-### Step 1: Create an Issue for Your Task (video)
+### Step 1: Create an Issue for Your Task ([video](https://www.youtube.com/watch?v=C-2bkHV44cY&index=13&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=13s))
 
 - When you start a task, create an issue for the task.
   - Use the exact same task title as the one in your individual assignment specs.
@@ -76,6 +76,8 @@ Follow the following steps for each task you perform during an iteration.
   - Add a comment "Closes #3" in the description (assuming that the issue is issue #3). This will link the PR with its corresponding issue and will automatically close the issue when the PR is closed. Here is a [GitHub Help article on using keywords in PR comments to close issues](https://help.github.com/articles/closing-issues-using-keywords/).
   - Set the _Reviewers_ to your team's QA Czars for the iteration, that is, the ones who will review PRs.
   - Set the _Labels_ and _Milestone_ to be the same as they were in the issue.
+
+([addendum video](https://www.youtube.com/watch?v=GBVew_xvE0w&index=17&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=0s))
 
 ### Step 5: Review/Revise/Accept the Pull Request ([video](https://www.youtube.com/watch?v=fSJeMo3YbaI&index=18&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=0s))
 
