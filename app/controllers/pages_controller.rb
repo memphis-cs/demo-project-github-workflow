@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def alice
   end
+
+  def bob
+  end
 end

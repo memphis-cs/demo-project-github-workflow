@@ -57,14 +57,15 @@ Follow the following steps for each task you perform during an iteration.
   - `iss3` where the associated issue is issue #3.
 - From the `master` branch, you might use this command to create the branch and check it out:
   - `git checkout -b iss3`
-
-### Step 3: Complete Your Task in the Topic Branch
-
 - The first time you push the topic branch, use this command to set the upstream branch (assuming that the topic branch is named `iss3`):
   - `git push -u origin iss3`
 - After you run the above push command, you can push and pull from the branch using the shorter forms:
   - `git push`
   - `git pull`
+
+### Step 3: Complete Your Task in the Topic Branch
+
+- With the topic branch is checked out, make changes, commit them locally, and push them to GitHub. All changes made this way should be fully contained in the topic branch.
 - If changes are merged into the `master` branch while you are working on your topic branch, you will need merge them into your topic branch before you're done. From your topic branch, you can use this command to merge the remote master branch into your topic branch (although you may need to manually resolve merge conflicts after the command):
   - `git pull origin master`
 
@@ -84,6 +85,7 @@ Follow the following steps for each task you perform during an iteration.
   - `git checkout -b iss3 origin/iss3`
 - If changes are needed, the author of the topic branch should make them to their working copy and push them to GitHub (all still in that topic branch). The pull request will be automatically updated to reflect the changes. The author will probably also want to reply to the comment in the pull request, so the QA Czar is notified of what's happened.
 - Once the QA Czar approves the change, they should also merge it into the `master` branch.
+- If other PRs are merged into the `master` branch before yours is, you will need to merge those changes into your topic branch before your PR can be merged.
 
 ## Things to Do at the End of Each Iteration
 
