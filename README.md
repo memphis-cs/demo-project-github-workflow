@@ -8,7 +8,7 @@ In this demonstration, I will explain the workflow to follow for submitting proj
 
 Before you begin development iterations, there are couple things that must be set up.
 
-### Configure Project Repo ([video](https://www.youtube.com/watch?v=Oi4c8UPu-9o&index=9&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=8s))
+### Configure Project Repo ([video](https://www.youtube.com/watch?v=Oi4c8UPu-9o&index=9&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=9s))
 
 - Disable _squash_ and _rebase_ merging. These forms of merging effectively change the commit history, and can cause confusion for the purposes of this course. Here is a [GitHub Help article on squash and rebase merging](https://help.github.com/articles/about-pull-request-merges/).
 - Add branch protection rule for `master` branch that requires pull request reviews before merging. Here is a [GitHub Help article on branch protection](https://help.github.com/articles/configuring-protected-branches/).
