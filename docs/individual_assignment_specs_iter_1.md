@@ -18,10 +18,10 @@
 
 ### Task: Add an about Alice page
 - Description: Add a page that tells about Alice. Add a link to the page on the home page. Involves adding a route for the page, adding a controller action to PagesController, adding a view for the page, and updating the home page with a hyperlink.
-- How to Evaluate: xxx (Instructions)
-- Outcome of Task: xxx (Description; filled in at end of iteration)
-- Issue: xxx (Issue Number; filled in at end of iteration)
-- Pull Request: xxx (Pull Request Number; filled in at end of iteration)
+- How to Evaluate: Run web server and open alice page.
+- Outcome of Task: Completed as planned.
+- Issue: #1
+- Pull Request: #3
 
 ## Tasks: Bob
 
