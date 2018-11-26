@@ -76,7 +76,6 @@ Follow the following steps for each task you perform during an iteration.
   - Add a comment "Closes #3" in the description (assuming that the issue is issue #3). This will link the PR with its corresponding issue and will automatically close the issue when the PR is closed. Here is a [GitHub Help article on using keywords in PR comments to close issues](https://help.github.com/articles/closing-issues-using-keywords/).
   - Set the _Reviewers_ to your team's QA Czars for the iteration, that is, the ones who will review PRs.
   - Set the _Labels_ and _Milestone_ to be the same as they were in the issue.
-- If other PRs are merged into the `master` branch before this one is, you will need to merge those changes into your topic branch before your PR can be merged.
 
 ### Step 5: Review/Revise/Accept the Pull Request
 
@@ -86,6 +85,7 @@ Follow the following steps for each task you perform during an iteration.
   - `git checkout -b iss3 origin/iss3`
 - If changes are needed, the author of the topic branch should make them to their working copy and push them to GitHub (all still in that topic branch). The pull request will be automatically updated to reflect the changes. The author will probably also want to reply to the comment in the pull request, so the QA Czar is notified of what's happened.
 - Once the QA Czar approves the change, they should also merge it into the `master` branch.
+- If other PRs are merged into the `master` branch before yours is, you will need to merge those changes into your topic branch before your PR can be merged.
 
 ## Things to Do at the End of Each Iteration
 
