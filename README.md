@@ -93,15 +93,31 @@ Follow the following steps for each task you perform during an iteration.
 
 At the end of each iteration, there are a few things you must do (mostly concerned with reporting/documenting).
 
+### 4.1 Finalize the `reporting` Branch
+
 - The team must update their individual assignment documents with the outcomes of their tasks. These changes should be committed/pushed to the `reporting` branch.
 - The team must also create/commit/push an instructions-to-instructors document in the `reporting` branch.
 - Someone must merge all changes made to the `master` branch into the `reporting` branch. This should be trivial because there should be no intersecting changesets. To checkout the reporting branch and do the merge, use these commands:
   - `git checkout reporting`
   - `git pull origin master`
+
+### 4.2 Merge the `reporting` Branch into the `master` Branch via a Pull Request
+
 - Someone other than the Project Coordinator must create a pull request for the `reporting` branch.
   - Make the title "Milestone _X_ Reporting", where _X_ is the number of the milestone being submitted.
   - Set the _Reviewers_ to your team's Project Coordinator for the iteration.
   - Set the _Labels_ to be _help wanted_.
   - Set the _Milestone_ to the appropriate milestone.
 - The Project Coordinator must review the pull request, making sure that the documents pass muster and making/requesting any necessary corrections/changes. Once everything is ready to submit, the Project Coordinator approves the pull request and merges it into `master`.
+
+### 4.3 Create a Release for the Milestone
+
+- From the GitHub repo page, follow the "releases" link and create a new release.
+  - Set _Tag version_ to `milestone1` (replacing the `1` with the number of the milestone).
+  - Set _Target_ to the appropriate commit. If it's the latest commit on the `master` branch, you may select `master`. However, if you want to be sure the correct commit is tagged, you can select it from the _Recent Commits_ menu.
+  - Set _Release title_ to _Milestone 1_ (replacing the `1` with the number of the milestone).
+- The version of the code associated with this release should be the same as the version shown in the demo video.
+
+### 4.4 Submit to Dropbox
+
 - Don't forget that the instructions-to-instructors document (a PDF generated from Markdown) must be submitted to the appropriate dropbox as well.
