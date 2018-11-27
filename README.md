@@ -1,6 +1,6 @@
 # Demo: Workflow for Submitting Project Work
 
-**[Start Video](https://www.youtube.com/watch?v=rMqqQHJzXJk&index=8&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=0s)**
+**[Start Video](https://www.youtube.com/watch?v=rMqqQHJzXJk&index=8&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=0s)** (~1 hour)
 
 In this demonstration, I will explain the workflow to follow for submitting project work in this course. The workflow mostly follows the popular [GitHub Flow](https://guides.github.com/introduction/flow/) workflow.
 
