@@ -89,11 +89,11 @@ Follow the following steps for each task you perform during an iteration.
 - Once the QA Czar approves the change, they should also merge it into the `master` branch.
 - If other PRs are merged into the `master` branch before yours is, you will need to merge those changes into your topic branch before your PR can be merged.
 
-## 4. Things to Do at the End of Each Iteration ([video](https://www.youtube.com/watch?v=9-ee0OJtr_Q&index=19&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=0s))
+## 4. Things to Do at the End of Each Iteration ([video](https://www.youtube.com/watch?v=9-ee0OJtr_Q&index=19&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=8s))
 
 At the end of each iteration, there are a few things you must do (mostly concerned with reporting/documenting).
 
-### 4.1 Finalize the `reporting` Branch
+### 4.1 Finalize the `reporting` Branch ([video](https://www.youtube.com/watch?v=9-ee0OJtr_Q&index=19&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=0s))
 
 - The team must update their individual assignment documents with the outcomes of their tasks. These changes should be committed/pushed to the `reporting` branch.
 - The team must also create/commit/push an instructions-to-instructors document in the `reporting` branch.
@@ -101,7 +101,7 @@ At the end of each iteration, there are a few things you must do (mostly concern
   - `git checkout reporting`
   - `git pull origin master`
 
-### 4.2 Merge the `reporting` Branch into the `master` Branch via a Pull Request
+### 4.2 Merge the `reporting` Branch into the `master` Branch via a Pull Request ([video](https://www.youtube.com/watch?v=9-ee0OJtr_Q&index=19&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=10m47s))
 
 - Someone other than the Project Coordinator must create a pull request for the `reporting` branch.
   - Make the title "Milestone _X_ Reporting", where _X_ is the number of the milestone being submitted.
@@ -110,7 +110,7 @@ At the end of each iteration, there are a few things you must do (mostly concern
   - Set the _Milestone_ to the appropriate milestone.
 - The Project Coordinator must review the pull request, making sure that the documents pass muster and making/requesting any necessary corrections/changes. Once everything is ready to submit, the Project Coordinator approves the pull request and merges it into `master`.
 
-### 4.3 Create a Release for the Milestone
+### 4.3 Create a Release for the Milestone ([video](https://www.youtube.com/watch?v=OIVtMMwdE9I&t=0s&index=20&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf))
 
 - From the GitHub repo page, follow the "releases" link and create a new release.
   - Set _Tag version_ to `milestone1` (replacing the `1` with the number of the milestone).
@@ -118,6 +118,6 @@ At the end of each iteration, there are a few things you must do (mostly concern
   - Set _Release title_ to _Milestone 1_ (replacing the `1` with the number of the milestone).
 - The version of the code associated with this release should be the same as the version shown in the demo video.
 
-### 4.4 Submit to Dropbox
+### 4.4 Submit to Dropbox ([video](https://www.youtube.com/watch?v=OIVtMMwdE9I&index=20&list=PL0s90BggiDzzbSQcd35_1Eu1fCTVB5bwf&t=4m14s))
 
 - Don't forget that the instructions-to-instructors document (a PDF generated from Markdown) must be submitted to the appropriate dropbox as well.
